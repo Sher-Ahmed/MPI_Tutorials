@@ -4,7 +4,7 @@
 void main(int argc , char **argv)
 {
 	//Intialize MPI
-	MPI_Int(NULL,NULL);
+	MPI_Init(NULL,NULL);
 
 	//Printing Hello World
 	printf("Hello World");	
