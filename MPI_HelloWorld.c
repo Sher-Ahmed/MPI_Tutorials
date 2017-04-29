@@ -7,7 +7,7 @@ void main(int argc , char **argv)
 	MPI_Init(NULL,NULL);
 
 	//Printing Hello World
-	printf("Hello World");	
+	printf("Hello World\n");	
 
 	//Finalize MPI
 	MPI_Finalize();
